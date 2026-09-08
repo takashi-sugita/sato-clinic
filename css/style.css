@@ -57,7 +57,7 @@ img{max-width:100%;display:block}
 .btn:hover{background:var(--green);color:#fff}
 .btn.white{border-color:#fff;color:#fff;background:transparent}.btn.white:hover{background:#fff;color:var(--green)}
 .more{text-align:center;margin-top:34px}
-.news-layout{display:grid;grid-template-columns:360px 1fr;gap:58px;align-items:center}
+.news-layout{display:grid;grid-template-columns:360px 1fr;gap:58px;align-items:start}
 .news-photo{height:390px;border-radius:24px;object-fit:cover;width:100%;box-shadow:var(--shadow)}
 .news-list{border-top:1px solid var(--line)}
 .news-item{display:grid;grid-template-columns:120px 1fr auto;gap:18px;align-items:center;padding:19px 0;border-bottom:1px solid var(--line)}
@@ -66,7 +66,7 @@ img{max-width:100%;display:block}
 .news-item a{font-size:15px;font-weight:500}.news-item a:hover{color:var(--green)}
 .greeting{display:grid;grid-template-columns:390px 1fr;gap:66px;align-items:center}
 .greeting-photo{position:relative}
-.greeting-photo img{width:100%;height:500px;object-fit:cover;border-radius:28px;box-shadow:var(--shadow)}
+.greeting-photo img{width:100%;height:500px;object-fit:cover;object-position:78% center;border-radius:28px;box-shadow:var(--shadow)}
 .greeting-photo .name-badge{position:absolute;right:-24px;bottom:28px;background:#fff;border-radius:16px;padding:16px 22px;box-shadow:var(--shadow);font-size:12px;color:var(--muted)}
 .greeting-photo .name-badge strong{display:block;color:var(--ink);font-size:18px;margin-top:2px}
 .greeting-text h3{font-size:27px;margin:0 0 22px;font-weight:600}.greeting-text p{margin:0 0 16px}
@@ -80,6 +80,9 @@ img{max-width:100%;display:block}
 .staff-intro{text-align:center;max-width:760px;margin:-18px auto 42px;color:var(--muted)}
 .staff-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
 .staff-card{text-align:center}.staff-card img{width:190px;height:190px;object-fit:cover;border-radius:50%;margin:0 auto 20px;box-shadow:var(--shadow)}
+.staff-card:first-child img{object-position:85% center}
+.staff-card:nth-child(2) img{object-position:100% center}
+.staff-card:nth-child(4) img{object-position:-10% center}
 .staff-card h3{font-size:17px;margin:0 0 4px}.staff-card .role{font-size:13px;color:var(--green);font-weight:600;margin:0 0 11px}.staff-card p{font-size:13px;color:var(--muted);margin:0}
 .access-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:52px;align-items:center}
 .map-image{width:100%;height:390px;object-fit:cover;border-radius:28px;box-shadow:var(--shadow)}
