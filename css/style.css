@@ -85,6 +85,8 @@ img{max-width:100%;display:block}
 .staff-card:nth-child(2) img{object-position:100% center}
 .staff-card:nth-child(4) img{object-position:-10% center}
 .staff-card h3{font-size:17px;margin:0 0 4px;order:2}.staff-card .role{font-size:13px;color:var(--green);font-weight:600;margin:0 0 11px;order:1}.staff-card p{font-size:13px;color:var(--muted);margin:0}.staff-card>p:not(.role){order:3}
+.staff-card-link{display:block;color:inherit;text-decoration:none;border-radius:12px;padding:10px;transition:transform .25s ease,box-shadow .25s ease;background:transparent}.staff-card-link:hover,.staff-card-link:focus-visible{transform:translateY(-5px);box-shadow:0 10px 24px rgba(22,71,58,.16);outline:none}.staff-card-link:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.staff-card-link:nth-child(3) .staff-card img{object-position:center}.staff-card-link:nth-child(4) .staff-card img{object-position:-10% center}
 .about-staff .staff-card>p:not(.role){text-align:left}
 .about-staff .staff-card>p strong{color:var(--green)}
 .access-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:52px;align-items:center}
