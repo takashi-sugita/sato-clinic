@@ -79,11 +79,11 @@ img{max-width:100%;display:block}
 .about-panel h3{font-size:30px;margin:0 0 18px}.about-panel p{opacity:.92;margin:0 0 22px}.about-panel img{width:100%;height:380px;object-fit:cover;border-radius:24px}
 .staff-intro{text-align:center;max-width:760px;margin:-18px auto 42px;color:var(--muted)}
 .staff-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
-.staff-card{text-align:center}.staff-card img{width:190px;height:190px;object-fit:cover;border-radius:50%;margin:0 auto 20px;box-shadow:var(--shadow)}
+.staff-card{text-align:center;display:flex;flex-direction:column}.staff-card img{width:190px;height:190px;object-fit:cover;border-radius:50%;margin:0 auto 20px;box-shadow:var(--shadow)}
 .staff-card:first-child img{object-position:85% center}
 .staff-card:nth-child(2) img{object-position:100% center}
 .staff-card:nth-child(4) img{object-position:-10% center}
-.staff-card h3{font-size:17px;margin:0 0 4px}.staff-card .role{font-size:13px;color:var(--green);font-weight:600;margin:0 0 11px}.staff-card p{font-size:13px;color:var(--muted);margin:0}
+.staff-card h3{font-size:17px;margin:0 0 4px;order:2}.staff-card .role{font-size:13px;color:var(--green);font-weight:600;margin:0 0 11px;order:1}.staff-card p{font-size:13px;color:var(--muted);margin:0}.staff-card>p:not(.role){order:3}
 .access-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:52px;align-items:center}
 .map-image{width:100%;height:390px;object-fit:cover;border-radius:28px;box-shadow:var(--shadow)}
 .access-info h3{font-size:24px;margin:0 0 18px}.access-info dl{margin:0}.access-info dt{font-size:12px;color:var(--green);font-weight:700;margin-top:14px}.access-info dd{margin:2px 0 0;font-size:15px}
