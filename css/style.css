@@ -47,7 +47,7 @@ img{max-width:100%;display:block}
 .schedule-table th:first-child,.schedule-table td:first-child{text-align:left}
 .schedule-table thead th{font-weight:600;color:var(--green-dark)}
 .schedule-table .dot{color:var(--green);font-size:18px;font-weight:700}
-.schedule-note{font-size:13px;color:var(--muted);margin:14px 0 0}
+.schedule-note{font-size:13px;color:var(--muted);margin:14px 0 0;text-align:center}
 .contact-panel{background:var(--green);color:#fff;border-radius:22px;padding:32px;height:100%;min-height:246px;display:flex;flex-direction:column;justify-content:center}
 .contact-panel .label{font-size:13px;opacity:.82;margin-bottom:5px}
 .contact-panel .tel{font-size:29px;font-weight:700;letter-spacing:.04em;margin:0 0 9px}
