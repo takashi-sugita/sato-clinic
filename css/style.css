@@ -125,4 +125,14 @@ body:has(.reservation-form) .page-hero-inner{background-image:url('../img/Medica
 .faq-q{cursor:pointer;position:relative;padding-right:32px}.faq-q:after{content:'＋';position:absolute;right:4px;color:var(--green);font-size:22px;font-weight:400}.faq-a{display:none}.faq-item.is-open .faq-a{display:block}.faq-item.is-open .faq-q:after{content:'−'}
 .faq-list:after{content:'その他のご質問や詳細については、スタッフまでお気軽にお問い合わせください。';display:block;margin-top:28px;color:#596662;font-size:14px;line-height:1.8}
 @media(max-width:900px){.menu-toggle{display:block}.global-nav.is-open{display:block;position:absolute;top:86px;left:0;right:0;background:#fff;padding:18px 16px;box-shadow:var(--shadow);z-index:10}.global-nav.is-open ul{flex-direction:column;gap:14px}.staff-grid{grid-template-columns:1fr}.admin-news-table,.admin-reservation-table{display:block;overflow-x:auto;white-space:nowrap}.reservation-form{padding:22px 18px}.content-title{font-size:26px}}
+@media(max-width:900px) and (orientation:portrait){
+  .schedule-card{padding:20px 12px;}
+  .schedule-table{table-layout:fixed;font-size:11px;}
+  .schedule-table th,.schedule-table td{padding:9px 2px;white-space:normal;word-break:break-all;}
+  .schedule-table th:first-child,.schedule-table td:first-child{width:30%;}
+  .schedule-note{font-size:11px;line-height:1.7;}
+  .contact-panel{padding:24px 20px;min-width:0;}
+  .contact-panel .tel{font-size:24px;word-break:break-all;}
+  .contact-panel p{font-size:13px;overflow-wrap:anywhere;}
+}
 @media (max-width:900px) and (orientation:landscape){.site-header{height:72px}.global-nav.is-open{top:66px}.container{max-width:calc(100% - 40px)}.hero-card{height:360px}.page-hero-inner{height:210px;padding:36px 42px}.page-hero h1{font-size:30px}.content-section{padding:42px 0}.schedule-wrap,.news-layout,.greeting,.about-panel{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.access-wrap{grid-template-columns:minmax(0,1.55fr) minmax(220px,.75fr);gap:32px}.access-wrap .map-image{height:100%;min-height:280px}.medical-grid,.detail-grid,.policy-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.reservation-form{max-width:680px;padding:26px 30px}.footer-top{flex-direction:row;gap:28px}}
