@@ -104,7 +104,7 @@ img{max-width:100%;display:block}
 .admin-reservation-table{width:100%;border-collapse:collapse;margin:24px 0;background:#fff}.admin-reservation-table th,.admin-reservation-table td{padding:14px;border:1px solid var(--line);text-align:left}.admin-reservation-table th{background:var(--mint);color:var(--green-dark)}
 .reservation-cancel{padding:7px 12px;border:1px solid #d99a8f;border-radius:6px;background:#fff;color:#a34f42;cursor:pointer;font:inherit;white-space:nowrap}.reservation-cancel:hover{background:#fff2ef}
 .access-info h3{font-size:24px;margin:0 0 18px}.access-info dl{margin:0}.access-info dt{font-size:12px;color:var(--green);font-weight:700;margin-top:14px}.access-info dd{margin:2px 0 0;font-size:15px}
-.site-footer{background:#183f37;color:#fff;padding:48px 0 24px}
+.site-footer{background:#183f37;color:#fff;padding:48px 0 24px}.site-footer::before{content:'本サイトは教材用の架空情報を使用したデモサイトです。実在の医療機関・サービスではありません。';display:block;max-width:1120px;margin:0 auto 28px;padding:0 24px;color:rgba(255,255,255,.8);font-size:12px;line-height:1.7;text-align:center}
 .footer-top{display:flex;justify-content:space-between;gap:48px;align-items:flex-start}.footer-brand img{width:190px;background:#fff;border-radius:4px}.footer-brand p{font-size:13px;opacity:.8;margin:14px 0 0}.footer-nav{display:grid;grid-template-columns:repeat(2,auto);gap:9px 28px;font-size:13px}.footer-nav a{opacity:.86}.footer-nav a:hover{opacity:1}.copyright{border-top:1px solid rgba(255,255,255,.16);margin-top:34px;padding-top:20px;text-align:center;font-size:11px;opacity:.65}
 .page-hero{padding:46px 0 54px;background:var(--green-soft)}
 .page-hero-inner{height:270px;border-radius:32px;padding:54px 60px;display:flex;align-items:center;position:relative;overflow:hidden;background:#d9eee8}
