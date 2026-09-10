@@ -126,8 +126,9 @@ body:has(.reservation-form) .page-hero-inner{background-image:url('../img/Medica
 .faq-list:after{content:'その他のご質問や詳細については、スタッフまでお気軽にお問い合わせください。';display:block;margin-top:28px;color:#596662;font-size:14px;line-height:1.8}
 @media(max-width:900px){.menu-toggle{display:block}.global-nav.is-open{display:block;position:absolute;top:86px;left:0;right:0;background:#fff;padding:18px 16px;box-shadow:var(--shadow);z-index:10}.global-nav.is-open ul{flex-direction:column;gap:14px}.staff-grid{grid-template-columns:1fr}.admin-news-table,.admin-reservation-table{display:block;overflow-x:auto;white-space:nowrap}.reservation-form{padding:22px 18px}.content-title{font-size:26px}}
 @media(max-width:900px) and (orientation:portrait){
+  .schedule-wrap > *{min-width:0;max-width:100%;}
   .schedule-card{padding:20px 12px;}
-  .schedule-table{table-layout:fixed;font-size:11px;}
+  .schedule-table{width:100%;max-width:100%;table-layout:fixed;font-size:11px;}
   .schedule-table th,.schedule-table td{padding:9px 2px;white-space:normal;word-break:break-all;}
   .schedule-table th:first-child,.schedule-table td:first-child{width:30%;}
   .schedule-note{font-size:11px;line-height:1.7;}
