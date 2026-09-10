@@ -153,6 +153,7 @@ body:has(.reservation-form) .page-hero-inner{background-image:url('../img/Medica
   }
   .staff-card::after{
     content:'プロフィールを見る →';
+    order:3;
     display:block;
     margin-top:14px;
     color:var(--green);
