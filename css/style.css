@@ -141,7 +141,7 @@ body:has(.reservation-form) .page-hero-inner{background-image:url('../img/Medica
     display:none;
   }
   .medical-card-link .medical-card .body::after{
-    content:'詳しく見る →';
+    content:'診療内容を詳しく見る →';
     display:block;
     margin-top:14px;
     color:var(--green);
